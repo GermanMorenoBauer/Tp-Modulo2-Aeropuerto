@@ -1,16 +1,16 @@
 export class Vuelo {
-    pasajeros;
-    tripulacion;
+    pasajeros = [];
+    tripulacion  = [];
     avion;
     fechaHoraPartida;
     aeropuertoSalida;
-    aeropuertoDestino;
-    constructor(pasajeros, tripulacion, avion, fechaHoraPartida, aeropuertoSalida, aeropuertoDestino){
-      this.pasajeros = [];
-      this.tripulacion = [];
-      this.avion = avion;
-      this.fechaHoraPartida = fechaHoraPartida;
-      this.aeropuertoSalida = aeropuertoSalida;
-      this.aeropuertoDestino = aeropuertoDestino;
+    aeropuertoLlegada;
+  
+    agregarPasajero(pasajero){
+        this.pasajeros.push(pasajero);
+    }
+
+    capacidadOcupadaPorPasajeros(){
+        return (this.pasajeros.length * 100) / this.avion.cantAsientos;
     }
   }
