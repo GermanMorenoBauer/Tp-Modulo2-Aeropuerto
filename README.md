@@ -6,6 +6,7 @@ Cada vuelo parte de un aeropuerto de inicio y arriba a un aeropuerto destino. Al
 Los aeropuertos están localizados en ciudades, pudiendo tener una ciudad más de un aeropuerto.
 A cada vuelo se le asigna un avión y una tripulación, la cual consta de 2 pilotos, 1 operador de comunicaciones, 2 comisarios de abordo y 4 azafatas.
 Cada pasajero de un vuelo tiene asignado un asiento.
+
 ***Requerimientos***
 
 El sistema debe informar:
