@@ -12,10 +12,10 @@ Cada pasajero de un vuelo tiene asignado un asiento.
 El sistema debe informar:
 1. La capacidad de un vuelo ocupada por pasajeros.(Hecho)
 2. La duración total aproximada de un vuelo, teniendo en cuenta que, de existir, en cada
-escala se demora un tiempo diferente.
+escala se demora un tiempo diferente.(Hecho)
 3. La cantidad de vuelos que partieron de un aeropuerto, así como también la cantidad de
-vuelos que a él llegaron, en un día determinado.
-4. El aeropuerto que recibió menos vuelos en escalas.
+vuelos que a él llegaron, en un día determinado.(Hecho)
+4. El aeropuerto que recibió menos vuelos en escalas.(Hacer test)
 5. La cantidad de vuelos totales que realizó un pasajero.
 6. La cantidad de aeropuertos que tiene una ciudad.
 7. La ciudad que más pasajeros recibió en un día.

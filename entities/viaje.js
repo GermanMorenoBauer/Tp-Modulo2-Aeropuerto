@@ -11,12 +11,29 @@ export class Viaje {
         this.escalas.push(escala);
     }
     
-    duracionTotalVuelos(){
-
+    duracionTotalVuelos() {
+        let duracionTotal = 0;
+        for (let i = 0; i < this.vuelos.length; i++) {
+            duracionTotal += this.vuelos[i].duracionAproxEnMins;
+        }
+        return duracionTotal;
     }
 
-    duracionTotalEscalas(){
+    duracionTotalEscalas() {
+        let duracionTotal = 0;
+        for (let i = 0; i < this.escalas.length; i++) {
+            duracionTotal += this.escalas[i].duracionAproxEnMins;
+        }
+        /*duracionTotalEscalas() {
+        let duracionTotal = 0;
 
+        this.escalas.forEach((unaEscala) => {
+            duracionTotal += unaEscala.duracionAproxEnMins;
+        });
+
+        return duracionTotal;*/
+    
+        return duracionTotal;
     }
     
     duracionTotalAproxEnMins(){
