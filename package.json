@@ -1,0 +1,14 @@
+{
+  "name": "aeropuertotp",
+  "version": "1.0.0",
+  "description": "Tpbloque2",
+  "main": "aerolinea.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "German Moreno Bauer",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
