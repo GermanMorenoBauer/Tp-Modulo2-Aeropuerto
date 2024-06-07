@@ -10,7 +10,7 @@ Cada pasajero de un vuelo tiene asignado un asiento.
 ***Requerimientos***
 
 El sistema debe informar:
-1. La capacidad de un vuelo ocupada por pasajeros.
+1. La capacidad de un vuelo ocupada por pasajeros.(Hecho)
 2. La duración total aproximada de un vuelo, teniendo en cuenta que, de existir, en cada
 escala se demora un tiempo diferente.
 3. La cantidad de vuelos que partieron de un aeropuerto, así como también la cantidad de

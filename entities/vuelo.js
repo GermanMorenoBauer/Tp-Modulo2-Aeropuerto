@@ -5,7 +5,8 @@ export class Vuelo {
     fechaHoraPartida;
     aeropuertoSalida;
     aeropuertoLlegada;
-  
+    duracionAproxEnMin;
+    
     agregarPasajero(pasajero){
         this.pasajeros.push(pasajero);
     }
