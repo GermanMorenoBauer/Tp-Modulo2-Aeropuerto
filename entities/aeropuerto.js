@@ -6,7 +6,10 @@ export class Aeropuerto{
         this.vuelos.push(vuelo);
     }
   
-    
+    agregarEscala(unaEscala) {
+        this.escalas.push(unaEscala);
+    }
+
     vuelosQuePartieronDeMi() {
         return this.vuelos.filter((v) => v.partisteDe(this));
     }
@@ -27,5 +30,9 @@ export class Aeropuerto{
     
     cantVuelosQueLlegaron(fecha) {
         return this.vuelosQueLlegaronHastaAquiElDia(fecha).length;
+    }
+    
+    cantEscalas() {
+        return this.escalas.length;
     }
 } 

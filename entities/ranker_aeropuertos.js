@@ -1,4 +1,5 @@
 export class RankeadorDeAeropuertos {
+   
     aeropuertoConMenorCantDeEscalas(aeropuertos) {
         let aeropuertoConMenorEscalas;
         let cantMenorEscalas = Infinity;

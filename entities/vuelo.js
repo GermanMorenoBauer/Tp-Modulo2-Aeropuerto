@@ -36,6 +36,6 @@ export class Vuelo {
         return this.fechaHoraLlegada == fecha;
     }
     cantPasajeros(){
-        
+        return this.pasajeros.length;  
     }
   }
